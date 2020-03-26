@@ -1,0 +1,6 @@
+比較兩個priority設定相反的版本之後，
+我發現兩個版本中，
+相同的是優先權較低的job都會有較高的miss ratio，
+不同的點在於rm中較高的miss ratio高達60%，
+而rmi中較高的miss ratio卻只有2%,
+
