@@ -1,0 +1,7 @@
+Q1:
+The response time of a pthread will be much different each execution.
+It is hard to configure workload if we do not set a static CPU frequency.
+Q2:
+It can be easliy build and test in personal computer.
+It can call functions in different device even if different languege,it is very convenience in distributed and real-time systems.
+

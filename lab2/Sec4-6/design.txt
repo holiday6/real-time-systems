@@ -1,0 +1,2 @@
+I use a vector as buffer to get the pub's TopicData and pop the TopicData from buffer and write it to sub.
+I add a while loop to busy wait util the buffer which is not empty.
