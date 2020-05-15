@@ -88,7 +88,6 @@ int main(int argc, char** argv) {
   TopicRequest request;
   request.set_topic(argv[2]);
   sub.Subscribe(request);
-  sleep(3600);
 
   return 0;
 }

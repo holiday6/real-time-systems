@@ -54,11 +54,11 @@ class EventServiceImpl final : public EventService::Service {
                    ServerWriter<TopicData>* writer) override {
     //TODO
     TopicData td;
+    while(data_list.size()==0){}
+    
     td = data_list.front();
-    for (int i = 0; i < 10; i++) {
-    // TODO: push the right fake data to the event subscriber
-        writer->Write(td);
-    }
+    writer->Write(td);
+    
     return Status::OK;
   }
 
